@@ -78,6 +78,10 @@ ul li, ol li {
   letter-spacing: 0.1rem;
 }
 
+.img-fluid {
+  align: right;
+}
+
 .section-titile-bg {
   display: inline;
   font-size: 115px;
