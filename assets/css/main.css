@@ -954,7 +954,6 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   margin: 10px 22px;
   padding: 3px 55px;
   position: relative;
-  color: #666;
 }
 
 .footer-right-contact .single-contact p {
