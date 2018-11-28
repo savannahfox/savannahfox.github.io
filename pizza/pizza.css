@@ -1,0 +1,38 @@
+body{
+    background-image: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Oxygen', serif;
+}
+
+.jumbotron {
+    color: #FFF;
+    text-align: center;
+}
+
+.row {
+    background-color: #FFF;
+}
+
+.card,
+.description {
+    text-align: justify;
+}
+
+.badge,
+h1 {
+    text-transform: uppercase;
+}
+
+.col {
+    width: 30em;
+}
+
+.ordertitle {
+    text-transform: uppercase;
+    font-weight: bold;
+}

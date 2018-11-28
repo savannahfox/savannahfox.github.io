@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="pizza.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen">
+    <title>Stumptown Pizzeria | Portland, OR</title>
+</head>
+
+<body id="home">
+
+<div class="container">
+
+<!-- Navigation -->
+
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Stumptown Pizza | Portland, OR</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#order">Order Online</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="#deals">Deals</a>
+                </li>
+          </ul>
+        </div>
+      </nav>
+
+<!-- End Navigation -->
+
+<!-- Jumbtron -->
+
+    <div class="jumbotron jumbotron-fluid bg-dark rounded">
+        <div class="container">
+          <h1 class="display-4">Stumptown Pizzeria</h1>
+          <p class="lead">Serving up the best pizza in Portland. Try a slice!</p>
+        </div>
+    </div>
+
+<!-- End Jumbotron -->
+
+<!-- About Section Start -->
+
+    <div class="container my-6 p-3">
+        <div class="row p-3 rounded">
+            <div>
+                <h2>Welcome to Stumptown Pizzeria</h2>
+                <p class="description">With two locations in the Kerns and Sellwood-Moreland neighborhoods, we have been serving up artisanal pizza made with local and seasonal ingredients for the last twenty years! "Slow food" is our passion and we take pride in sourcing the finest organic fruits and vegetables for our food. Go ahead - try a slice!</p>
+            </div>
+        </div>   
+    </div>
+
+<!-- End About Section -->
+
+<!-- About Menu Start -->
+
+    <div id="menu" class="container p-3">
+        <div class="row p-3 rounded">
+            <div>
+                <h2>Menu</h2>
+                <p class="description">Try one of our four classic pizzas or make your own! Vegetarian, vegan, and gluten-free options available where noted. Please be advised that we are not a gluten-free facility and trace allergens may be present.</p>
+                    <div class="row p-2">
+                            <div class="col-sm-6">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Laurelhurst</h5>
+                                  <p class="card-text">We love tomatoes and heirlooms are the star of our take on the pizza margherita.</p>
+                                  <span class="badge badge-success">Vegetarian</span> <span class="badge badge-secondary">Gluten-Free</span>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Nob Hill</h5>
+                                  <p class="card-text">Spinach and artichoke shine on this white sauce-based pizza. We serve it up on an extra thin crust.</p>
+                                  <span class="badge badge-success">Vegetarian</span> <span class="badge badge-warning">Vegan</span> <span class="badge badge-secondary">Gluten-Free</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row p-2">
+                                <div class="col-sm-6">
+                                  <div class="card">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Mt. Tabor</h5>
+                                      <p class="card-text">The pizza that made us famous: beet pesto with fresh goat cheese.</p>
+                                      <span class="badge badge-success">Vegetarian</span> <span class="badge badge-secondary">Gluten-Free</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-sm-6">
+                                  <div class="card">
+                                    <div class="card-body">
+                                      <h5 class="card-title">The Pearl</h5>
+                                      <p class="card-text">Beautifully crafted with caramelized onions, apples, mozzerella, and grilled chicken.</p>
+                                      <span class="badge badge-secondary">Gluten-Free</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          
+            </div>
+        </div>   
+    </div>
+
+<!-- End Menu Section -->
+
+<!-- Order Start -->
+
+<div id="order" class="container my-6 p-3">
+  <div class="row p-3 rounded">
+      <div>
+          <h2>Order Online</h2>
+          <p>What's for dinner? Free delivery within a five mile radius.</p>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col">
+                  <span class="ordertitle">Size</span>
+                  <p>
+                    <input class="size" type="radio" name="Size" value="Personal"> Personal<br>
+                    <input class="size" type="radio" name="Size" value="Medium"> Medium<br>
+                    <input class="size" type="radio" name="Size" value="Large"> Large<br>
+                    <input class="size" type="radio" name="Size" value="Extra Large"> Extra Large
+                  </p>
+                </div>
+                <div class="col">
+                  <span class="ordertitle">Crust</span>
+                  <p>
+                    <input class="crust" type="radio" name="Crust" value="Plain"> Plain<br>
+                    <input class="crust" type="radio" name="Crust" value="Garlic Butter"> Garlic Butter<br>
+                    <input class="crust" type="radio" name="Crust" value="Cheese Stuffed"> Cheese Stuffed<br>
+                    <input class="crust" type="radio" name="Crust" value="Spicy"> Spicy<br>
+                    <input class="crust" type="radio" name="Crust" value="House Special"> House Special
+                  </p>
+                </div>
+                <div class="col">
+                  <span class="ordertitle">Meats</span>
+                  <p>
+                    <input class="meat" type="checkbox" name="Meat" value="Anchovy"> Anchovy<br>
+                    <input class="meat" type="checkbox" name="Meat" value="Canadian Bacon"> Canadian Bacon<br>
+                    <input class="meat" type="checkbox" name="Meat" value="Chicken"> Chicken<br>
+                    <input class="meat" type="checkbox" name="Meat" value="Ground Beef"> Ground Beef<br>
+                    <input class="meat" type="checkbox" name="Meat" value="Pepperoni"> Pepperoni<br>
+                    <input class="meat" type="checkbox" name="Meat" value="Sausage"> Sausage
+                  </p>
+                </div>
+                <div class="col">
+                  <span class="ordertitle">Vegetables</span>
+                  <p>
+                    <input class="veg" type="checkbox" name="Veg" value="Green Peppers"> Green Peppers<br>
+                    <input class="veg" type="checkbox" name="Veg" value="Jalapeno"> Jalapeno<br>
+                    <input class="veg" type="checkbox" name="Veg" value="Mushrooms"> Mushrooms<br>
+                    <input class="veg" type="checkbox" name="Vegetables" value="Olives"> Olives<br>
+                    <input class="vegetables" type="checkbox" name="Veg" value="Onions"> Onions<br>
+                    <input class="veg" type="checkbox" name="Veg" value="Pineapple"> Pineapple<br>
+                    <input class="veg" type="checkbox" name="Veg" value="Spinach"> Spinach<br>
+                    <input class="veg" type="checkbox" name="Veg" value="Tomatoes"> Tomatoes
+                  </p>
+                </div>
+                <div class="col">
+                  <span class="ordertitle">Sauce</span>
+                  <p>
+                    <input class="sauce" type="radio" name="Sauce" value="No Sauce"> No Sauce<br>
+                    <input class="sauce" type="radio" name="Sauce" value="Marinara Sauce"> Marinara Sauce<br>
+                    <input class="sauce" type="radio" name="Sauce" value="Barbeque Sauce"> Barbeque Sauce<br>
+                    <input class="sauce" type="radio" name="Sauce" value="White Sauce"> White Sauce
+                  </p>
+                </div>
+                <div class="col">
+                  <span class="ordertitle">Cheese</span>
+                  <p>
+                    <input class="cheese" type="radio" name="Cheese" value="No Cheese"> No Cheese<br>
+                    <input class="cheese" type="radio" name="Cheese" value="Regular"> Regular<br>
+                    <input class="cheese" type="radio" name="Cheese" value="Extra Cheese"> Extra Cheese
+                  </p>
+                </div>
+            </div>
+            <p>
+              <div class="text-center"><input id="btnOrder" class="btn btn-outline-secondary btn-lg type="button" onclick="getReceipt()" value="Place Order" data-toggle="modal" data-target="#exampleModalCenter"></div>
+
+              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">Your Order</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+              <div id="cart">
+                <div id="showText"></div>
+                <div id="totalPrice"></div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-outline-secondary">Order</button>
+            </div>
+          </div>
+        </div>
+      </div>
+            </p>
+          </div>
+      </div>
+  </div>   
+</div>
+
+<!-- Order End -->
+
+<!-- Order Form Script -->
+
+<script src="order.js"></script>
+
+<!-- End Order Form Script -->
+
+</div>
+
+<!-- JavaScript and JQuery -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+<!-- End JavaScript and JQuery-->
+
+</body>
+</html>
