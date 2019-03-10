@@ -1,5 +1,5 @@
 ﻿@import "https://fonts.googleapis.com/css?family=Cormorant:300i";
-@import "https://fonts.googleapis.com/css?family=Oxyen";
+@import "https://fonts.googleapis.com/css?family=Roboto";
 
 body, html {
     height: 100%;
@@ -16,12 +16,23 @@ body, html {
     height: 120px;
     background: #FFF;
     position: absolute;
-    margin: auto;
     right: 0%;
     top: 50%;
     background: rgb(204, 204, 204);
     background: rgba(204, 204, 204, 0.5);
-    padding-left: 10px;
+    padding-left: 15px;
+}
+
+.ribbon {
+    background: #ECEFE8;
+    font-size: 12px;
+    padding: 20px;
+}
+
+.ribbon-content {
+    margin: auto;
+    width: 90%;
+    padding: 20px;
 }
 
 .about {
@@ -30,14 +41,33 @@ body, html {
     padding: 20px;
 }
 
+.about-content {
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+}
+
+.card-title {
+    font-family: 'Cormorant', serif;
+    font-style: italic;
+    font-size: 18pt;
+    color: #000;
+    text-transform: uppercase;
+}
+
 
 h1 {
-    font-size: 18pt;
     font-family: 'Cormorant', serif;
+    font-style: italic;
+    font-size: 22pt;
+    color: #000;
+    text-transform: uppercase;
 }
 
 p {
     text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    line-height: 18pt;
 }
 
 .name {
@@ -46,24 +76,4 @@ p {
     font-size: 60pt;
     color: #000;
     text-transform: uppercase;
-}
-
-a:hover {
-    color: #FFF;
-    text-decoration: none;
-}
-
-.navigation-style {
-    font-family: 'Oxyen', sans-serif;
-    font-size: 11pt;
-    text-transform: lowercase;
-}
-
-.bg-dark {
-    color: #FFF;
-}
-
-.form-style {
-    font-family: 'Oxyen', sans-serif;
-    font-size: 11pt;
 }
