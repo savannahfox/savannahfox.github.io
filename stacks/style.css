@@ -1,0 +1,69 @@
+﻿@import "https://fonts.googleapis.com/css?family=Cormorant:300i";
+@import "https://fonts.googleapis.com/css?family=Oxyen";
+
+body, html {
+    height: 100%;
+}
+
+.cover {
+    background-image: url('images/cover.jpg');
+    background-size: cover;
+    height: 100%;
+}
+
+.title {
+    width: 400px;
+    height: 120px;
+    background: #FFF;
+    position: absolute;
+    margin: auto;
+    right: 0%;
+    top: 50%;
+    background: rgb(204, 204, 204);
+    background: rgba(204, 204, 204, 0.5);
+    padding-left: 10px;
+}
+
+.about {
+    background: #fff;
+    font-size: 12px;
+    padding: 20px;
+}
+
+
+h1 {
+    font-size: 18pt;
+    font-family: 'Cormorant', serif;
+}
+
+p {
+    text-align: justify;
+}
+
+.name {
+    font-family: 'Cormorant', serif;
+    font-style: italic;
+    font-size: 60pt;
+    color: #000;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.navigation-style {
+    font-family: 'Oxyen', sans-serif;
+    font-size: 11pt;
+    text-transform: lowercase;
+}
+
+.bg-dark {
+    color: #FFF;
+}
+
+.form-style {
+    font-family: 'Oxyen', sans-serif;
+    font-size: 11pt;
+}
